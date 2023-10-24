@@ -1,0 +1,23 @@
+{
+  "name": "gafa-delivery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HenrickyGX/gafa-delivery.git",
+  "author": "aleson01 <81500671+aleson01@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts"
+    },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.8",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.5.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.0"
+  }
+}
